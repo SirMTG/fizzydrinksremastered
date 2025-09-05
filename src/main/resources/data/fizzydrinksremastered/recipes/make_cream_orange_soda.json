@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "fizzydrinksremastered:orange_soda"
+    }
+  ],
+  "result": {
+    "item": "fizzydrinksremastered:cream_orange_soda",
+    "count": 1
+  }
+}

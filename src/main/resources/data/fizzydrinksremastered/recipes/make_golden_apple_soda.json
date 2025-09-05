@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "fizzydrinksremastered:carbonated_water"
+    }
+  ],
+  "result": {
+    "item": "fizzydrinksremastered:golden_apple_soda",
+    "count": 1
+  }
+}

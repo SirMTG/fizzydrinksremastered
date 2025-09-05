@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:seeds"
+    },
+    {
+      "item": "fizzydrinksremastered:carbonated_water"
+    }
+  ],
+  "result": {
+    "item": "fizzydrinksremastered:root_beer",
+    "count": 1
+  }
+}

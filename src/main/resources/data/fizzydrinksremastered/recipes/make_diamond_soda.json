@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "fizzydrinksremastered:carbonated_water"
+    }
+  ],
+  "result": {
+    "item": "fizzydrinksremastered:diamond_soda",
+    "count": 1
+  }
+}
