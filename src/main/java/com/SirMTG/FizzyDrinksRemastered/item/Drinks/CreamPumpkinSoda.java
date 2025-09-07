@@ -5,12 +5,11 @@ import com.SirMTG.FizzyDrinksRemastered.item.ModItems;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 
-public class CreamOrangeSoda extends DrinkItem {
+public class CreamPumpkinSoda extends DrinkItem {
 
-    public CreamOrangeSoda(Properties pProperties) {
+    public CreamPumpkinSoda(Properties pProperties) {
         super(pProperties);
     }
 

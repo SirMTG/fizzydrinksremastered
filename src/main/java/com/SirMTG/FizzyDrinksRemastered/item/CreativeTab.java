@@ -20,12 +20,12 @@ public class CreativeTab {
                 output.accept(ModItems.DIAMOND_SODA.get());
                 output.accept(ModItems.APPLE_SODA.get());
                 output.accept(ModItems.COCOA_SODA.get());
-                output.accept(ModItems.CREAM_ORANGE_SODA.get());
+                output.accept(ModItems.CREAM_PUMPKIN_SODA.get());
                 output.accept(ModItems.GOLDEN_APPLE_SODA.get());
                 output.accept(ModItems.MUSHROOM_SODA.get());
-                output.accept(ModItems.ORANGE_SODA.get());
+                output.accept(ModItems.PUMPKIN_SODA.get());
                 output.accept(ModItems.ROOT_BEER.get());
-                output.accept(ModItems.SPIKED_ORANGE_SODA.get());
+                output.accept(ModItems.SPIKED_PUMPKIN_SODA.get());
                 output.accept(ModItems.CARBONATED_WATER.get());
                 output.accept(ModItems.CO2CAN.get());
                 output.accept(ModItems.SODA_BOTTLE.get());

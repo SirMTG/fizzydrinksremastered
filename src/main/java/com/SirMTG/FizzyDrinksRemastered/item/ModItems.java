@@ -20,11 +20,11 @@ public class ModItems {
     public static final RegistryObject<Item> COCOA_SODA = ITEMS.register("cocoa_soda", () -> new CocoaSoda(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> MUSHROOM_SODA = ITEMS.register("mushroom_soda", () -> new MushroomSoda(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> GOLDEN_APPLE_SODA = ITEMS.register("golden_apple_soda", () -> new GoldenAppleSoda(new Item.Properties().stacksTo(16)));
-    public static final RegistryObject<Item> CREAM_ORANGE_SODA = ITEMS.register("cream_orange_soda", () -> new CreamOrangeSoda(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> CREAM_PUMPKIN_SODA = ITEMS.register("cream_pumpkin_soda", () -> new CreamPumpkinSoda(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> DIAMOND_SODA = ITEMS.register("diamond_soda", () -> new DiamondSoda(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> SLURM = ITEMS.register("slurm", () -> new Slurm(new Item.Properties().stacksTo(16)));
-    public static final RegistryObject<Item> ORANGE_SODA = ITEMS.register("orange_soda", () -> new OrangeSoda(new Item.Properties().stacksTo(16)));
-    public static final RegistryObject<Item> SPIKED_ORANGE_SODA = ITEMS.register("spiked_orange_soda", () -> new SpikedOrangeSoda(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> PUMPKIN_SODA = ITEMS.register("pumpkin_soda", () -> new PumpkinSoda(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> SPIKED_PUMPKIN_SODA = ITEMS.register("spiked_pumpkin_soda", () -> new SpikedPumpkinSoda(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
