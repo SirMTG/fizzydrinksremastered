@@ -1,10 +1,10 @@
 package com.SirMTG.FizzyDrinksRemastered.item.Drinks;
 
 import com.SirMTG.FizzyDrinksRemastered.item.DrinkItem;
+import com.SirMTG.FizzyDrinksRemastered.item.ModItems;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 
 public class CocoaSoda extends DrinkItem {
@@ -19,7 +19,7 @@ public class CocoaSoda extends DrinkItem {
             stack.shrink(1);
             player.heal(8.0F);
 
-            player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE));
+            player.getInventory().add(new ItemStack(ModItems.SODA_BOTTLE.get()));
         }
         return stack;
     }

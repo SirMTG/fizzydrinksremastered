@@ -36,7 +36,7 @@ public class DrinkItem extends Item {
             stack.shrink(1);
             player.heal(2.0F);
 
-            player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE));
+            player.getInventory().add(new ItemStack(ModItems.SODA_BOTTLE.get()));
         }
         return stack;
     }

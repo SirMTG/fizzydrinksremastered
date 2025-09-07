@@ -1,6 +1,7 @@
 package com.SirMTG.FizzyDrinksRemastered.item.Drinks;
 
 import com.SirMTG.FizzyDrinksRemastered.item.DrinkItem;
+import com.SirMTG.FizzyDrinksRemastered.item.ModItems;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -22,7 +23,7 @@ public class GoldenAppleSoda extends DrinkItem {
             player.heal(10.0F);
             player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3600, 0));
             player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 1));
-            player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE));
+            player.getInventory().add(new ItemStack(ModItems.SODA_BOTTLE.get()));
         }
         return stack;
     }
