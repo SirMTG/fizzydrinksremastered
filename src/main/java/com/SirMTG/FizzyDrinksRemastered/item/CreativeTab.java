@@ -29,6 +29,7 @@ public class CreativeTab {
                 output.accept(ModItems.CARBONATED_WATER.get());
                 output.accept(ModItems.CO2CAN.get());
                 output.accept(ModItems.SODA_BOTTLE.get());
+                output.accept(ModItems.FILLED_SODA_BOTTLE.get());
 
 
 

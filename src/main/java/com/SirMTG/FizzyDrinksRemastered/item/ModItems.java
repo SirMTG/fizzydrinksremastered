@@ -13,7 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> CO2CAN = ITEMS.register("co2can", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CARBONATED_WATER = ITEMS.register("carbonated_water", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SODA_BOTTLE = ITEMS.register("soda_bottle", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SODA_BOTTLE = ITEMS.register("soda_bottle", () -> new SodaBottle(new Item.Properties()));
+    public static final RegistryObject<Item> FILLED_SODA_BOTTLE = ITEMS.register("filled_soda_bottle", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> APPLE_SODA = ITEMS.register("apple_soda", () -> new DrinkItem(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> ROOT_BEER = ITEMS.register("root_beer", () -> new RootBeer(new Item.Properties().stacksTo(16)));
